@@ -5,7 +5,7 @@
 
 //Set the DHT Pin
 #define DHTPIN 8
-//Initialize the Library witht he numbers of the interface pins
+//Initialize the Library with he numbers of the interface pins
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
